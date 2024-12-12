@@ -1,0 +1,74 @@
+{
+  "points": [
+    {
+      "name": "Ticket Counter",
+      "position": {
+        "x": 0,
+        "y": 1,
+        "z": 5
+      }
+    },
+    {
+      "name": "Bypass",
+      "position": {
+        "x": 0,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "name": "Stair",
+      "position": {
+        "x": 15,
+        "y": 1,
+        "z": 0
+      }
+    },
+    {
+      "name": "Stair P2",
+      "position": {
+        "x": 15,
+        "y": 1,
+        "z": -10
+      }
+    },
+    {
+      "name": "Flyover P2",
+      "position": {
+        "x": 15,
+        "y": 5,
+        "z": -10
+      }
+    },
+    {
+      "name": "Flyover P1",
+      "position": {
+        "x": 15,
+        "y": 5,
+        "z": 0
+      }
+    }
+  ],
+  "paths": [
+    {
+      "start": "Bypass",
+      "end": "Ticket Counter"
+    },
+    {
+      "start": "Bypass",
+      "end": "Stair"
+    },
+    {
+      "start": "Stair",
+      "end": "Flyover P1"
+    },
+    {
+      "start": "Flyover P1",
+      "end": "Flyover P2"
+    },
+    {
+      "start": "Flyover P2",
+      "end": "Stair P2"
+    }
+  ]
+}
